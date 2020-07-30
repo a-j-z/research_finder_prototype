@@ -1,0 +1,99 @@
+/* Color Theme Swatches in Hex */
+.Huawei-|-Wisdom-1-hex { color: #0F1B26; }
+.Huawei-|-Wisdom-2-hex { color: #265573; }
+.Huawei-|-Wisdom-3-hex { color: #2E728C; }
+.Huawei-|-Wisdom-4-hex { color: #8FC4D9; }
+.Huawei-|-Wisdom-5-hex { color: #F2DBD5; }
+
+/* Color Theme Swatches in RGBA */
+.Huawei-|-Wisdom-1-rgba { color: rgba(14, 27, 38, 1); }
+.Huawei-|-Wisdom-2-rgba { color: rgba(37, 85, 114, 1); }
+.Huawei-|-Wisdom-3-rgba { color: rgba(46, 113, 140, 1); }
+.Huawei-|-Wisdom-4-rgba { color: rgba(143, 195, 216, 1); }
+.Huawei-|-Wisdom-5-rgba { color: rgba(242, 218, 213, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Huawei-|-Wisdom-1-hsla { color: hsla(208, 44, 10, 1); }
+.Huawei-|-Wisdom-2-hsla { color: hsla(202, 50, 29, 1); }
+.Huawei-|-Wisdom-3-hsla { color: hsla(196, 50, 36, 1); }
+.Huawei-|-Wisdom-4-hsla { color: hsla(196, 49, 70, 1); }
+.Huawei-|-Wisdom-5-hsla { color: hsla(11, 53, 89, 1); }
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    background-image: url(colors_2.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+#containerDiv {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 200px;
+    width: 500px;
+    background-color: #111918;
+    border-radius: 20px;
+}
+
+#headerDiv {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: #BAF2E6
+}
+
+#loginDiv {
+
+}
+
+input {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 400px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #BAF2E6;
+    color: #000000;
+    border: 0;
+    border-radius: 20px;
+}
+::placeholder {
+    color: #86C3B6
+}
+input:focus {
+    outline: none;
+    border: 4px solid #149E8D;
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 440px;
+    padding-top: 8px;
+    background-color: #5766A1;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: #374064;
+}
+button:focus {
+    outline: none;
+    border: 4px solid #FFFFFF;
+}
